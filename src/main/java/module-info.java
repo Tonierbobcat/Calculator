@@ -3,6 +3,6 @@ module javafx.test {
     requires javafx.fxml;
     requires java.desktop;
 
-    opens com.loficostudios.javafxtest to javafx.fxml;
-    exports com.loficostudios.javafxtest;
+    opens com.loficostudios.calculator to javafx.fxml;
+    exports com.loficostudios.calculator;
 }

@@ -26,7 +26,7 @@
               <shadedArtifactAttached>true</shadedArtifactAttached>
               <transformers>
                 <transformer>
-                  <mainClass>com.loficostudios.javafxtest.Main</mainClass>
+                  <mainClass>com.loficostudios.calculator.Main</mainClass>
                 </transformer>
               </transformers>
             </configuration>
@@ -41,7 +41,7 @@
           <execution>
             <id>default-cli</id>
             <configuration>
-              <mainClass>com.loficostudios.javafxtest/com.loficostudios.javafxtest.CalculatorApp</mainClass>
+              <mainClass>com.loficostudios.javafxtest/com.loficostudios.calculator.CalculatorApp</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>

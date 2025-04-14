@@ -1,4 +1,4 @@
-package com.loficostudios.javafxtest;
+package com.loficostudios.calculator;
 
 import javafx.application.Application;
 

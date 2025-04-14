@@ -65,7 +65,7 @@
                             <dest>${project.build.directory}/output</dest>
                             <name>Calculator</name>
                             <input>${project.build.directory}/${project.artifactId}-${project.version}.jar</input>
-                            <mainclass>com.loficostudios.javafxtest.Main</mainclass>
+                            <mainclass>com.loficostudios.calculator.Main</mainclass>
                             <type>exe</type>
                         </configuration>
                     </execution>
@@ -79,7 +79,7 @@
                     <execution>
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.loficostudios.javafxtest.CalculatorApp
+                            <mainClass>com.loficostudios.calculator.CalculatorApp
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
